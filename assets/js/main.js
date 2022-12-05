@@ -1,9 +1,3 @@
-/**
-* Template Name: Personal - v4.9.1
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -248,5 +242,12 @@
    * Initiate Pure Counter 
    */
   new PureCounter();
+
+  /**
+   * Particles
+   */
+  particlesJS.load('particles-js', 'assets/json/particles.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
 
 })()
